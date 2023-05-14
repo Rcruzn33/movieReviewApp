@@ -1,0 +1,26 @@
+
+.image-container {
+  display: flex;
+  overflow-x:auto;
+flex-wrap: norap;
+justify-content: center;
+
+}
+
+.review-header {
+  display: flex;
+  justify-content: flex-start; /* change from space-between */
+  align-items: center;
+}
+
+.review-rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%; /* set a specific width for the element */
+}
+
+.review-rating label {
+  margin-right: 25px;
+}
+
